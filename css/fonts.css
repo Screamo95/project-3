@@ -1,0 +1,16 @@
+@font-face {
+  font-family: ms_italic;
+  src: url(../fonts/Montserrat-Italic.woff);
+}
+@font-face {
+  font-family: ms_medium;
+  src: url(../fonts/Montserrat-Medium.woff);
+}
+@font-face {
+  font-family: ms_regular;
+  src: url(../fonts/Montserrat-Regular.woff);
+}
+@font-face {
+  font-family: ms_semibold;
+  src: url(../fonts/Montserrat-SemiBold.woff);
+}
