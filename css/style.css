@@ -40,8 +40,6 @@
   max-width: 1128px;
   margin: 0 auto;
 }
-.header__body {
-}
 .header__title {
   font-family: ms_semibold;
   font-size: 56px;
@@ -66,46 +64,11 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1200px) {
-  .header__container {
-    max-width: 960px;
-  }
-}
-@media screen and (max-width: 992px) {
-  .header__container {
-    max-width: 720px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .header__container {
-    max-width: 540px;
-  }
-}
-@media screen and (max-width: 576px) {
-  .header__container {
-    max-width: 320px;
-  }
-  .header__title {
-    font-size: 36px;
-  }
-  .header {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-}
-@media screen and (max-width: 335px) {
-  .header__container {
-    padding: 0 15px;
-  }
-}
-
 /* Services  */
 
 .services {
   padding-top: 103px;
   padding-bottom: 202px;
-}
-.services__body {
 }
 .services__title {
   margin-bottom: 26px;
@@ -134,39 +97,6 @@
   font-size: 16px;
   color: var(--grey_color);
   line-height: 128%;
-}
-
-@media screen and (max-width: 1200px) {
-  .global__container {
-    max-width: 960px;
-  }
-  .services__info_item {
-    min-width: 0px;
-    max-width: 280px;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 992px) {
-  .global__container {
-    max-width: 720px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .global__container {
-    max-width: 540px;
-  }
-}
-@media screen and (max-width: 576px) {
-  .global__container {
-    max-width: 280px;
-  }
-  .services__info {
-    flex-direction: column;
-    align-items: center;
-  }
-  .services__subtitle {
-    padding: 0 10px;
-  }
 }
 
 /* Team  */
@@ -201,8 +131,6 @@
   align-self: center;
   margin-right: 8px;
 }
-.team__item_content {
-}
 .team__item_content-name {
   font-family: ms_medium;
   font-size: 12px;
@@ -215,15 +143,69 @@
   color: var(--grey_color);
 }
 
+/* Media  */
+
+@media screen and (max-width: 1200px) {
+  .header__container {
+    max-width: 960px;
+  }
+  .global__container {
+    max-width: 960px;
+  }
+  .services__info_item {
+    min-width: 0px;
+    max-width: 280px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .header__container {
+    max-width: 720px;
+  }
+  .global__container {
+    max-width: 720px;
+  }
+}
 @media screen and (max-width: 768px) {
+  .header__container {
+    max-width: 540px;
+  }
+  .global__container {
+    max-width: 540px;
+  }
   .team__items {
     flex-direction: column;
     align-items: center;
   }
 }
 @media screen and (max-width: 576px) {
+  .header__container {
+    max-width: 320px;
+  }
+  .header__title {
+    font-size: 36px;
+  }
+  .header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .global__container {
+    max-width: 280px;
+  }
+  .services__info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .services__subtitle {
+    padding: 0 10px;
+  }
   .global__title {
     line-height: 121%;
+  }
+}
+@media screen and (max-width: 335px) {
+  .header__container {
+    padding: 0 15px;
   }
 }
 @media screen and (max-width: 320px) {
